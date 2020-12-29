@@ -1,5 +1,7 @@
+const val = "woo"
+
 function doThing() {
-  console.log("thang done")
+  console.log("thang done", val);
 }
 
 doThing();
