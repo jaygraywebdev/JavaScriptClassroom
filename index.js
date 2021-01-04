@@ -1,7 +1,12 @@
-const val = "woo"
+/**
+ * JavaScript keywords and reserved words
+ * Syntax: spaces and special characters
+ */
 
-function doThing() {
-  console.log("thang done", val);
+const name = "Jeremy";
+
+function sayHello() {
+  console.log("Hello", name);
 }
 
-doThing();
+sayHello();
