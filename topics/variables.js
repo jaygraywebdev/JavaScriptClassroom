@@ -24,7 +24,7 @@ var myToys = {}   // object
 /**
  * use typeof to check the type of a variable
  */
-// console.log(typeof number);
+console.log("typeof number: ", typeof number);
 
 
 /**
@@ -35,7 +35,9 @@ const lastName = "Gray";
 // console.log("Hello " + firstName + lastName);
 
 /**
- * Type Casting
+ * ## Type Casting
+ * When comparing variables, JavaScript will try to cast variables
+ * to other types so they can be logically compared
  */
 const one = 1;
 const two = 2;
