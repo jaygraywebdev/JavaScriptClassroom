@@ -1,9 +1,20 @@
-var sum = require('../students/nicole/sum');
-var diff = require('../students/nicole/diff');
+/*
+  Edit the lines below to match your directory.
+  What do you think these lines are doing? 
+*/
+
+var sum = () => {};
+var diff = () => {};
+
+
+
+/*
+## DO NOT EDIT BELOW THIS LINE ## 
+*/
 var expect = require('chai').expect;
 
 describe('#sum()', function() {
-  context('without arguments', function() {
+  context('with arguments', function() {
     it('should return 0', function() {
       expect(sum()).to.equal(0)
     })
@@ -12,7 +23,7 @@ describe('#sum()', function() {
     it('should return sum of arguments', function() {
       expect(sum(1, 2)).to.equal(3);
     })
-    it('should return argument when only one argument is passed', function() {
+    it('should return one argument when only one argument is passed', function() {
       expect(sum(5)).to.equal(5)
     })
   })
