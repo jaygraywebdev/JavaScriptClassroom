@@ -18,9 +18,9 @@ var myToys = {}  // object
 /** Use type of to check the type of variable*/
 console.log(typeof finalName);
 
-const firsttName = "Nicole";
+const firstName = "Nicole";
 const lastName = "Gray";
-console.log ("Hello" firstName + lastName)
+console.log ("Hello", firstName + lastName)
 
 /**
  * Type Casting 

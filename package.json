@@ -5,11 +5,13 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
     "cross-env": "^7.0.3",
     "mocha": "^8.2.1"
   },
   "scripts": {
-    "test": "mocha ./students/**/"
+    "test": "cross-env TEST_ENV=weewoo && mocha",
+    "test:nicole": "mocha ./students/nicole/"
   },
   "repository": {
     "type": "git",

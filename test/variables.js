@@ -24,7 +24,7 @@ var myToys = {}   // object
 /**
  * use typeof to check the type of a variable
  */
-console.log("typeof number: ", typeof number);
+// console.log("typeof number: ", typeof number);
 
 
 /**
