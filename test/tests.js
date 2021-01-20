@@ -3,7 +3,7 @@
   What do you think these lines are doing? 
 */
 
-var sum = () => {};
+var sum = require('../test/sum');
 var diff = () => {};
 
 
