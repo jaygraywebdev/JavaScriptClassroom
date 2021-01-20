@@ -4,7 +4,7 @@
 */
 
 var sum = require('../students/daniel/sum');
-var diff = () => {};
+var diff = require('../students/daniel/diff');
 
 
 
