@@ -11,5 +11,5 @@ module.exports = {
   diff: true,
   extension: ['js'],
   package: './package.json',
-  'watch-ignore': ['node_modules'],
+  'watch-ignore': ['node_modules', 'notes'],
 }
