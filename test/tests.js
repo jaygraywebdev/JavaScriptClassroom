@@ -3,8 +3,8 @@
   What do you think these lines are doing? 
 */
 
-var sum = require('../students/caitlin/sum') ;
-var diff = require('../students/caitlin/diff') ;
+var sum = () => {};
+var diff = () => {};
 
 
 
