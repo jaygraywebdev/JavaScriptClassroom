@@ -49,5 +49,5 @@ const doYouLike = `${name}, do you like ${food1}, ${food2}, or ${food3}?`
 //    ##
 // Your answer must include the addition operator + 
 
-const finalQuestion = `Your total is $${10+10.20}0, how will you be paying?`;
+const finalQuestion = `Your total is $${10.00+10.20}0, how will you be paying?`;
 console.log(finalQuestion);
