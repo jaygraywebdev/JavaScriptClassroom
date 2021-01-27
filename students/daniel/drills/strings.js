@@ -19,11 +19,11 @@
 
 // Create a variable with the name "name"
 // Assign it any relatively human name
-
+var name = "X AE A-Xii";
 // Create a number variable
-
+var number;
 // Create a template literal enthusiastically greeting the above name
-
+const happyGreeting
 // Ask the above name what their favorite kind of dessert is
 
 // Write a happy birthday message to the name above
