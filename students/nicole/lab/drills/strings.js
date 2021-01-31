@@ -67,5 +67,6 @@ const food = `${lady}, Do you like ${breakfast}, ${lunch} or ${dinner}?`;
 //    ##  Your total is $20.20, how will you be paying?
 //    ##
 // Your answer must include the addition operator + 
-`Your total is ${1010 + 1010}, how will you be paying?`;
+`Your total is ${10.10 + 10.10}, how will you be paying?`;
+
 
