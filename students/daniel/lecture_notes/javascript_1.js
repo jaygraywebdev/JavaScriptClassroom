@@ -2,36 +2,47 @@
 //Numbers
 
 // 1. Declare a variable called age and give it a value of your age.
-
+var age = 25;
 // 2. Declare a variable called showMeSix and give it a value of 3 + 3.  We can perform math operations on numbers.
-
+var showMeSix = 3+3;
 // Strings
 // 3. Declare a variable called name and give it a value of your name.
-
+var name = "Daniel";
 // 4. Declare a variable called greeting and give it a value of a nice greeting.  Use either template strings or concatenation to add your name to the end of the greeting.
-
+var greeting = "Hello, " + name + ", nice to meet you!";
 // Booleans
 // 5. Declare a variable called lovesCode and give it a value of a boolean.
-
+var lovesCode = true;
 // Arrays
 // 6. Declare a variable called friends and give it a value of an array containing 3 strings, each one a name of a friend.
 //Console.log the first item in your array
-
+var friends = ["Preston", "Evan", "Deion"];
 // Objects
 // 7. Declare a variable called me.  Make it an object with the following properties: name, age, lovesCode, friends, and greeting.  Use your previously declared variables to provide values to this object.
-
+const me = {
+  name: name,
+  age: age,
+  lovesCode: lovesCode,
+  friends: friends,
+  greeting: greeting,
+}
 // 8.Consol e log the name property on your object.
 // 8a. DOT NOTATION
-
+console.log(me.name);
 // 8b. BRACKET NOTATION
-
+console.log(me['name']);
 // 9. Add a new property called favoriteNumber and give it a value of your favorite number.
-
+me.favoriteNumber = 420;
 //Console log the whole object
-
+console.log(me);
 /* ##### Functions ##### */
 
 // 10. Write a function called sayHello, have it return the string of hello.  Invoke it below.
+function sayHello() {
+  var string = "Hello";
+  return(string);
+}
+console.log(sayHello);  
 
 // 10a. Modify the above function to take in an argument of name.  Invoke it below passing in any name as a string.
 
