@@ -19,19 +19,29 @@
 
 // Create a variable with the name "name"
 // Assign it any relatively human name
+var customerName = "Helen";
 
 // Create a number variable
+var customerNum = 77;
 
 // Create a template literal enthusiastically greeting the above name
+const greeting = `Hello ${customerName}, how are you?`;
 
 // Ask the above name what their favorite kind of dessert is
+const question = `What is your favorite desert ${customerName}?`;
 
 // Write a happy birthday message to the name above
+const birthday = `Happy Birthday ${customerName}!`;
 
 // Ask the above name if they are that number years old
+const customerAge = `Are you ${customerNum} years old, ${customerName}?`;
 
 // Create 3 variables, each of them a food.
+var cheese = "Gouda";
+var meat = "Steak";
+var veggie = "Broccoli";
 // Ask the name above if they like any of those foods
+const customerFood = `Do you like ${veggie} ${customerName}?`;
 
 // Using the variables below, calculate the total bill
 // and draft a text to your friends.
