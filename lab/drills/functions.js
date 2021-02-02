@@ -18,7 +18,7 @@
     // perform crazy computation to encrypt the message!
   }                                                             /*
 
-  In this context, msg is considered a "parameter." 
+  When creating functions, variables like msg are considered "parameters." 
   When we're creating functions, the variables that are
   "passed in" are called parameters as long as we're interacting
   with him between the function's braces { }
