@@ -40,24 +40,56 @@ console.log(me);
 // 10. Write a function called sayHello, have it return the string of hello.  Invoke it below.
 function sayHello() {
   var string = "Hello";
-  return(string);
+  return string;
 }
-console.log(sayHello);  
+console.log(sayHello());  
 
 // 10a. Modify the above function to take in an argument of name.  Invoke it below passing in any name as a string.
-
+var myName = "Daniel";
+function sayHello(name) {
+  var string = "Hello " + name;
+  return string;
+}
+console.log(sayHello(myName));
 // 11. Create a function called sum as a function expression that takes in two parameters: num1 and num2.  Return their sum.  Invoke it below passing in any two numbers.
+function sum(num1, num2) {
+  var result = num1 + num2;
+  return result;
+}
+console.log(sum(3, 5));
 
 // 12. Write a function as an arrow function called findFirst that will take in an array.  It should return the first item in the array.
 const numsArr = [1, 2, 3, 4, 5, 6]
-
+function findFirst(nums) {
+  return nums[0];
+}
+console.log(findFirst(numsArr));
 /* ##### If statements ##### */
 
 // 13. Write a function called equalChecker that takes in two numbers.  If they are equal return true, if they are not return false.
-
+function equalChecker(num1, num2) {
+  if (num1 === num2){
+    return true;
+  }
+  return false;
+}
+var first = 2;
+var second = 2;
+console.log(equalChecker(first, second));
 // 14. Write a function called canIDrive that takes in a number, someones age.  If the person is under 16 return the string 'you can drive a bike'.  If they are between 16 and 50 return 'you can drive a car'.  Otherwise, return the string 'you can drive a cadillac'.  Invoke the function below.
-
-
+function canIDrive(age) {
+  if (age < 16) {
+    return "You can drive a bike";
+  }
+  if (age >= 16 && age <= 49) {
+    return "You can drive a car";
+  }
+  if (age >= 50) {
+    return "You can drive a Cadillac";
+  }
+}
+var myAge = 50;
+console.log(canIDrive(myAge));
 
 /* ##### Scope ##### */
 
