@@ -54,7 +54,7 @@
 
   It's much more common to pass in variables as
   arguments to a function.                                  */
-  const secretMessage = "4 your eyez only";
+  const secretMessage = "4 your eyez only some new changes";
   encryptMessage(secretMessage);                              /*
 
   The names of parameters and arguments do not correllate to each other.
