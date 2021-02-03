@@ -84,8 +84,8 @@ numTip(2, 2);
 
 // Create a function that divides two numbers
 
-function numDiv(parameter3, parameter4){
-  return parameter3 / parameter4
+function numDiv(parameterThree, parameterFour){
+  return parameterThree / parameterFour
 };
 
 numDiv(24,2);
@@ -93,10 +93,34 @@ numDiv(24,2);
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
 
+function retVar(paramOne){
+  return 
+};
+
 // Create a function that returns true if
 // the age passed in is greater than 21
+
+function legalAge(paramTwo) {
+
+  if (paramTwo > 21)
+    return true
+};
+
+legalAge(55);
+
 
 // Declare three variables: firstName, middleName, lastName
 // Create a function called generateFullName that accepts three parameters
 // The function should return a concatenated string, creating a full
 // name from the three passed in
+
+
+function generateFullName(paraOne, paraTwo, paraThree){
+  let firstName = "Nicole ";
+  let middleName = "Marie-Christine ";
+  let lastName = "Gray";
+
+  return firstName + middleName + lastName;
+};
+
+generateFullName();
