@@ -85,7 +85,7 @@ function divide(num1, num2){
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
 function whatType(param1){
-  return typeof(param1); 
+  return typeof param1; 
 }
 // Create a function that returns true if
 // the age passed in is greater than 21
@@ -93,7 +93,7 @@ function ageOf(userAge){
   if(ageOf > 21){
     return true;
   }
-  else return false;
+  return false;
 }
 // Declare three variables: firstName, middleName, lastName
 // Create a function called generateFullName that accepts three parameters
