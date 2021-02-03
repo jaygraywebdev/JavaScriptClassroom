@@ -68,26 +68,27 @@
 // ### Infer how many arguments you'll need to pass in 
 
 // Create a function that returns the sum of three numbers
-function NumSum(numOne, numTwo, numThree){
+function numSum(numOne, numTwo, numThree){
   return numOne + numTwo + numThree  
 };
-NumSum(4, 4, 4);
 
-
+numSum(4, 4, 4);
 
 // Create a function that multiplies two numbers 
 
-const num4 = 2
-const num5 = 5
-function total(num4,num5) {
-  return num4 * num5
+function numTip(parameterOne, parameterTwo){
+  return parameterOne * parameterTwo
 };
-const answer = total(num4, num5);
+
+numTip(2, 2);
+
 // Create a function that divides two numbers
 
-const num6 = 24
-const num7 = 2
-function totalTwo
+function numDiv(parameter3, parameter4){
+  return parameter3 / parameter4
+};
+
+numDiv(24,2);
 
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
