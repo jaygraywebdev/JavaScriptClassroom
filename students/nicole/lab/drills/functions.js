@@ -68,6 +68,7 @@
 // ### Infer how many arguments you'll need to pass in 
 
 // Create a function that returns the sum of three numbers
+
 function numSum(numOne, numTwo, numThree){
   return numOne + numTwo + numThree  
 };
@@ -92,10 +93,13 @@ numDiv(24,2);
 
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
+let myAge = 34;
 
 function retVar(paramOne){
-  return 
+   return typeof(paramOne);
 };
+
+retVar(myAge);
 
 // Create a function that returns true if
 // the age passed in is greater than 21
