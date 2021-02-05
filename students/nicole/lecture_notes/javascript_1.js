@@ -3,19 +3,34 @@
 
 // 1. Declare a variable called age and give it a value of your age.
 
+const age = 34;
+
 // 2. Declare a variable called showMeSix and give it a value of 3 + 3.  We can perform math operations on numbers.
+ 
+const showMeSix = 3 + 3;
+
 
 // Strings
 // 3. Declare a variable called name and give it a value of your name.
 
+const name = "Nicole";
+
 // 4. Declare a variable called greeting and give it a value of a nice greeting.  Use either template strings or concatenation to add your name to the end of the greeting.
+
+const greeting = `Hi! How have you been ${name}?`;
 
 // Booleans
 // 5. Declare a variable called lovesCode and give it a value of a boolean.
 
+let lovesCode = true;
+
 // Arrays
 // 6. Declare a variable called friends and give it a value of an array containing 3 strings, each one a name of a friend.
 //Console.log the first item in your array
+
+let friends = ["Addison", "Nathan, Amy"];
+
+console.log(friends[0]);
 
 // Objects
 // 7. Declare a variable called me.  Make it an object with the following properties: name, age, lovesCode, friends, and greeting.  Use your previously declared variables to provide values to this object.
@@ -25,8 +40,7 @@
 
 // 8b. BRACKET NOTATION
 
-// 9. Add a new property called favoriteNumber and give it a value of your favorite number.
-
+// 9. Add a new property called favoriteNumber and give it a value of your favorite numbe
 //Console log the whole object
 
 /* ##### Functions ##### */
