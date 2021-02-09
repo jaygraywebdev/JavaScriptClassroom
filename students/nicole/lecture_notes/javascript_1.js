@@ -47,7 +47,15 @@ console.log(friends[0]);
 
 // 10. Write a function called sayHello, have it return the string of hello.  Invoke it below.
 
+function sayHello(){
+   return "Hello"
+};
+
+sayHello();
+
 // 10a. Modify the above function to take in an argument of name.  Invoke it below passing in any name as a string.
+
+
 
 // 11. Create a function called sum as a function expression that takes in two parameters: num1 and num2.  Return their sum.  Invoke it below passing in any two numbers.
 
