@@ -11,21 +11,21 @@
   2. If the conditions are met, the code block executes.
 
   3. Single variables can be evaluated as a condition; JavaScript will 
-  determine if the variable is 'truthy' or 'falsy' -- if it has any value at all
+  determine if the variable is 'truthy' or 'falsy' (if it has any value at all)
 
   4. We use operators to create more complex conditions
   
   5. Comparison Operators:
-    >     greater than
-    <     less than
-    >=    greater than or equal to
-    <=    less than or equal to
-    ==    shallow equality
-    ===   deep equality                   
+    >     
+    <     
+    >=     
+    <=     
+    ==    
+    ===                      
   
   6. Logical Operators: 
-    ||    or
-    &&    and
+    ||    
+    &&    
 
     Logical operators require at least two variables.
 
