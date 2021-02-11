@@ -119,13 +119,12 @@ legalAge(55);
 // The function should return a concatenated string, creating a full
 // name from the three passed in
 
+let firstName = "Nicole ";
+let middleName = "Marie-Christine ";
+let lastName = "Gray";
 
 function generateFullName(paraOne, paraTwo, paraThree){
-  let firstName = "Nicole ";
-  let middleName = "Marie-Christine ";
-  let lastName = "Gray";
-
-  return firstName + middleName + lastName;
+   return paraOne + paraTwo + paraThree;
 };
 
-generateFullName();
+generateFullName(firstName, middleName, lastName);
