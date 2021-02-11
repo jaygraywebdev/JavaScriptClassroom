@@ -93,10 +93,11 @@ numDiv(24,2);
 
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
+
 let myAge = 34;
 
 function retVar(paramOne){
-   return typeof(paramOne);
+   return typeof paramOne;
 };
 
 retVar(myAge);
