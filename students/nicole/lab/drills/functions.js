@@ -69,17 +69,62 @@
 
 // Create a function that returns the sum of three numbers
 
+function numSum(numOne, numTwo, numThree){
+  return numOne + numTwo + numThree  
+};
+
+numSum(4, 4, 4);
+
 // Create a function that multiplies two numbers 
 
+function numTip(parameterOne, parameterTwo){
+  return parameterOne * parameterTwo
+};
+
+numTip(2, 2);
+
 // Create a function that divides two numbers
+
+function numDiv(parameterThree, parameterFour){
+  return parameterThree / parameterFour
+};
+
+numDiv(24,2);
 
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
 
+let myAge = 34;
+
+function retVar(paramOne){
+   return typeof paramOne;
+};
+
+retVar(myAge);
+
 // Create a function that returns true if
 // the age passed in is greater than 21
+
+function legalAge(paramTwo) {
+
+  if (paramTwo > 21)
+    return true
+};
+
+legalAge(55);
+
 
 // Declare three variables: firstName, middleName, lastName
 // Create a function called generateFullName that accepts three parameters
 // The function should return a concatenated string, creating a full
 // name from the three passed in
+
+let firstName = "Nicole ";
+let middleName = "Marie-Christine ";
+let lastName = "Gray";
+
+function generateFullName(paraOne, paraTwo, paraThree){
+   return paraOne + paraTwo + paraThree;
+};
+
+generateFullName(firstName, middleName, lastName);
