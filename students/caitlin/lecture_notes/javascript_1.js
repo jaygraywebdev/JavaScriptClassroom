@@ -18,10 +18,16 @@ var lovesCode = true;
 // 6. Declare a variable called friends and give it a value of an array containing 3 strings, each one a name of a friend.
 //Console.log the first item in your array
 var friends = ['Alex', 'Winter', 'Sinead'];
-console.log(0)
+console.log(friends [0])
 // Objects
 // 7. Declare a variable called me.  Make it an object with the following properties: name, age, lovesCode, friends, and greeting.  Use your previously declared variables to provide values to this object.
-var me = 
+var me = {
+  name: 'Caitlin',
+  age: 33,
+  lovesCode: true,
+  friends: ['Alex', 'Winter', 'Sinead'],
+  greeting: 'Welcome',
+};
 // 8.Consol e log the name property on your object.
 // 8a. DOT NOTATION
 

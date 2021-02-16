@@ -92,14 +92,19 @@ const newDi = numDi(1, 2)
 
 // Create a function that returns the data type of a variable
 // ## HINT: use the typeof keyword
-function puppyDog('Beagle') {
+function checktype(puppyDog) {
 
 }
 console.log(typeof puppyDog);
 
+checktype('Beagle');
+
 // Create a function that returns true if
 // the age passed in is greater than 21
-
+function greaterThan(> 21) {
+  const greaterThan = x > 21;
+  return true;
+}
 // Declare three variables: firstName, middleName, lastName
 // Create a function called generateFullName that accepts three parameters
 // The function should return a concatenated string, creating a full
@@ -108,4 +113,6 @@ var firstName = 'Caitlin';
 var middleName = 'Marie';
 var lastName = 'Wichowski';
 
-function generateFullName(firstName + middleName + lastName)
+function generateFullName(firstName + middleName + lastName) {
+  return firstName + middleName + lastName;
+}
