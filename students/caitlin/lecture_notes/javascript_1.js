@@ -2,24 +2,32 @@
 //Numbers
 
 // 1. Declare a variable called age and give it a value of your age.
+var age = 33;
 
 // 2. Declare a variable called showMeSix and give it a value of 3 + 3.  We can perform math operations on numbers.
-
+var showMeSix = 3 + 3;
 // Strings
 // 3. Declare a variable called name and give it a value of your name.
-
+var name = 'Caitlin';
 // 4. Declare a variable called greeting and give it a value of a nice greeting.  Use either template strings or concatenation to add your name to the end of the greeting.
-
+var greeting = "Welcome" + ${name};
 // Booleans
 // 5. Declare a variable called lovesCode and give it a value of a boolean.
-
+var lovesCode = true;
 // Arrays
 // 6. Declare a variable called friends and give it a value of an array containing 3 strings, each one a name of a friend.
 //Console.log the first item in your array
-
+var friends = ['Alex', 'Winter', 'Sinead'];
+console.log(friends [0])
 // Objects
 // 7. Declare a variable called me.  Make it an object with the following properties: name, age, lovesCode, friends, and greeting.  Use your previously declared variables to provide values to this object.
-
+var me = {
+  name: 'Caitlin',
+  age: 33,
+  lovesCode: true,
+  friends: ['Alex', 'Winter', 'Sinead'],
+  greeting: 'Welcome',
+};
 // 8.Consol e log the name property on your object.
 // 8a. DOT NOTATION
 
@@ -32,7 +40,9 @@
 /* ##### Functions ##### */
 
 // 10. Write a function called sayHello, have it return the string of hello.  Invoke it below.
-
+function sayHello('Hello') {
+  return sayHello;
+}
 // 10a. Modify the above function to take in an argument of name.  Invoke it below passing in any name as a string.
 
 // 11. Create a function called sum as a function expression that takes in two parameters: num1 and num2.  Return their sum.  Invoke it below passing in any two numbers.
